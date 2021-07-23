@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Ivan Bolgov" => "bolgov23i@gmail.com" }
 
   spec.ios.deployment_target = '12.1'
-  spec.ios.vendored_frameworks = 'NiceLogger123.framework'
+  spec.ios.vendored_frameworks = 'NiceLogger.framework'
   spec.public_header_files = "Headers/**.*"
   spec.source            = { :http => 'https://github.com/bolgov-pwr/NiceLogger/blob/master/NiceLogger.zip' }
   spec.exclude_files = "Classes/Exclude"
