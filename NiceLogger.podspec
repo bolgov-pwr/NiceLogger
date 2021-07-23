@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '12.1'
   spec.ios.vendored_frameworks = 'NiceLogger123.framework'
-  spec.public_header_files = "/Headers/**.*"
+  spec.public_header_files = "Headers/**.*"
   spec.source            = { :http => 'https://github.com/bolgov-pwr/NiceLogger/blob/master/NiceLogger.zip' }
   spec.exclude_files = "Classes/Exclude"
 
